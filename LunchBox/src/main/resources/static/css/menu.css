@@ -1,0 +1,227 @@
+@charset "UTF-8";
+a{
+	 text-decoration: none;
+}
+.btn-outline-secondary {
+	margin-right: 0.5rem;
+}
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+      
+      
+      
+      
+
+      
+ 
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+.info {
+	background-color: white;
+	padding:1em;
+	width:1320px;
+	margin:0 auto;
+}
+
+h6{
+	font-size: 12px;
+	color:rgb(117, 117, 117);
+}
+
+.menuList {
+    width: 1320px;
+    margin: 0 auto;
+  	padding-top: 50px;
+}
+
+.list {
+	width: 1320px;
+    overflow: hidden;
+    min-height: 0px;
+    padding-bottom: 60px;
+    display: flex;
+    gap: 138px;
+}
+
+.today {
+	box-sizing: border-box;
+    display: flex;
+    letter-spacing: -0.03em;
+    color: rgb(77, 77, 77);
+    margin-bottom: 20px;
+}
+
+.todayMenu {
+	width: 171px;
+    height: 60px;
+    display: inline-block;
+    background: rgb(128, 0, 255);
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+}
+
+.menu {
+	flex: 1 1 0%;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 36px;
+}
+
+.one {
+	width: 273px;
+    max-width: 273px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.two{
+	display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+img {
+	margin-bottom: 2em;
+	display: flex;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    position: relative;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 273px;
+    height: 273px;
+	aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 100%;
+}
+
+.detail {
+	padding-top: 20;
+}
+.name {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 맑은고딕;
+}
+.name1 {
+	font-family: 맑은고딕;
+	font-size: 18px;
+}
+     
+ 
